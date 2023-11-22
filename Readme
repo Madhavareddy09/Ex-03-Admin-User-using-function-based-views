@@ -81,17 +81,16 @@ def create_users(request):
 
 ## In Urls.py:- 
 ```
-from django.contrib import admin 
-from django.urls import path 
-from saiapp import views 
-from saiapp.views import create_users 
-urlpatterns = [ 
+from django.contrib import admin
+from django.urls import path
 
-    path('admin/', admin.site.urls), 
-    path('home/',views.home,name='home'),
-    path('create_users/', views.create_users, name='create_users'), 
+from myapp import views
+from myapp.views import create_users
 
-] 
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('create_users/', views.create_users, name='create_users'),
+]
 ```
 ## In Settings.py:- 
 ```
@@ -109,16 +108,13 @@ INSTALLED_APPS = [
 
     "django.contrib.staticfiles", 
 
-    'saiapp', 
+    "myapp", 
 
 ] 
  ```
 
 ## OUTPUT: 
-![Screenshot 2023-11-22 103715](https://github.com/saiganesh2006/EX-03-Admin-user-using-function-based-views/assets/145742342/db469eb4-e6b7-4bbf-b495-c7cdd505e849)
 
- ![Screenshot 2023-11-22 103701](https://github.com/saiganesh2006/EX-03-Admin-user-using-function-based-views/assets/145742342/6d548f3a-8746-459f-b403-541a19e105ca)
- 
 ## RESULT: 
 
 Developed Admin User using Function based views successfully executed. 
