@@ -115,9 +115,12 @@ INSTALLED_APPS = [
 
 ## OUTPUT: 
 
+![Screenshot 2023-11-22 105013](https://github.com/Madhavareddy09/Ex-03-Admin-User-using-function-based-views/assets/145742470/29d7ab8e-6818-4be6-a563-9f72cd14b125)
+![Screenshot 2023-11-22 105129](https://github.com/Madhavareddy09/Ex-03-Admin-User-using-function-based-views/assets/145742470/5b7c53a5-1d78-4592-ba4d-950fa058e62e)
+
 ## RESULT: 
 
-Developed Admin User using Function based views successfully executed. 
+Developed Admin User using Function based views executed Successfully.
 
  
  
